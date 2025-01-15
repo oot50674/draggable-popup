@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Draggable Popup Test</title>
+    <link rel="stylesheet" href="./draggable-popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Draggable Popup 테스트</h1>
+      <button onclick="createTestPopup()">팝업 생성</button>
+    </div>
+
+    <script src="draggable-popup.js"></script>
+    <script>
+      function createTestPopup() {
+        createPopup({
+          title: "이미지 팝업 예제", // 팝업 제목
+          content:
+            '<img src="https://picsum.photos/600/400" alt="샘플 이미지">',
+          // content에 img 태그 사용하여 이미지 포함
+          autoSize: true,
+          top: "100", // 세로 중앙 배치
+          left: "200", // 가로 중앙 배치
+          showTodayOption: true, // '오늘 하루 그만보기' 옵션 표시
+          popupId: "imagePopup2", // 팝업 고유 ID
+          startDate: "2024-01-01", // 팝업 게시 시작일
+          endDate: "2099-12-31", // 팝업 게시 종료일
+        });
+      }
+    </script>
+  </body>
+</html>
