@@ -2,7 +2,7 @@
 
 ## 소개
 
-팝업을 드래그하여 이동시킬 수 있는 기능을 제공하는 자바스크립트 라이브러리입니다. 팝업의 크기를 자동으로 조절하고, '오늘 하루 그만보기' 옵션을 제공하여 사용자 경험을 향상시킵니다.
+팝업을 드래그하여 이동시킬 수 있는 기능을 제공하는 자바스크립트 라이브러리입니다. 
 
 ## 사용법
 
@@ -53,3 +53,23 @@
 - 자동 크기 조절
 - '오늘 하루 그만보기' 옵션
 - 팝업 게시 기간 설정
+
+## 매개변수
+
+`options`: 팝업 설정을 정의하는 객체. 다음 속성들을 포함합니다:
+
+```javascript
+ * @typedef {Object} PopupOptions
+ * @property {string} title - 팝업창 제목
+ * @property {string} content - 팝업창 내용 (HTML 태그 사용 가능)
+ * @property {number} width - 팝업창 너비 (픽셀)
+ * @property {(number|'auto')} height - 팝업창 높이 ('auto' 또는 픽셀)
+ * @property {number|string} top - 팝업창 상단 위치 (픽셀 또는 'center')
+ * @property {number|string} left - 팝업창 좌측 위치 (픽셀 또는 'center')
+ * @property {boolean} autoSize - 내용에 맞춰 자동 크기 조절 여부
+ * @property {boolean} showTodayOption - 오늘 하루 그만보기 옵션 표시 여부
+ * @property {string} popupId - 팝업창 고유 ID (쿠키 저장용)
+ * @property {string} startDate - 팝업 게시 시작일 (YYYY-MM-DD)
+ * @property {string} endDate - 팝업 게시 종료일 (YYYY-MM-DD)
+```
+
