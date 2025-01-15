@@ -57,7 +57,7 @@
 - '오늘 하루 그만보기' 옵션
 - 팝업 게시 기간 설정
 
-## 매개변수
+## `createPopup` 매개변수
 
 `options`: 팝업 설정을 정의하는 객체. 다음 속성들을 포함합니다:
 
@@ -75,4 +75,3 @@
  * @property {string} startDate - 팝업 게시 시작일 (YYYY-MM-DD)
  * @property {string} endDate - 팝업 게시 종료일 (YYYY-MM-DD)
 ```
-
