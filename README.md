@@ -4,6 +4,9 @@
 
 팝업을 드래그하여 이동시킬 수 있는 기능을 제공하는 자바스크립트 라이브러리입니다. 
 
+![image](https://github.com/user-attachments/assets/173add78-f3ca-47a6-8797-132fc0b84751)
+
+
 ## 사용법
 
 1. `draggable-popup.js`와 `draggable-popup.css` 파일을 프로젝트에 포함시킵니다.
