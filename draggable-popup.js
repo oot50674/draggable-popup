@@ -58,7 +58,7 @@
   // 초기화 시 Font Awesome 로드
   loadFontAwesome();
 
-  // 팝업 기본 템플릿 (Template Literal 사용 X)
+  // 팝업 기본 템플릿
   var popupTemplate =
     '<div class="draggable-popup-window" style="opacity:0;">' +
       '<div class="popup-header">' +
