@@ -1,4 +1,4 @@
-# Draggable Popup
+# Draggable Popup.js
 
 ## 소개
 
